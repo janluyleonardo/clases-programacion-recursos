@@ -1,0 +1,11 @@
+// 1. determinar si un numero n es par o impar, 
+// donde n es recibido como parametro
+Algoritmo par_impar
+	Escribir 'hola, por favor ingresa el numero a evaluar'
+	Leer n
+	Si n % 2 = 0 Entonces
+		Escribir "el valor ingresado es par"+convertiratexto(n)
+	SiNo
+		Escribir "el valor ingresado es impar"+convertiratexto(n)
+	Fin Si
+FinAlgoritmo
